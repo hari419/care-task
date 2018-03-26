@@ -4,11 +4,12 @@
  margin: auto;
  display: table;
  background-color: rgb(216, 216, 216);
+ overflow: hidden;
 }
 
 .upgradeBox{
     min-height: 57px;
-    
+    width: 100%; 
     margin: 30px auto;
     display: table;
     border: 1px solid rgb(186, 186, 186);
@@ -20,12 +21,32 @@
 .upgradeBox .btn-primary{
     margin-top: 0;
 }
+select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
 
-.profile-checks{
-    
+}
+
+.search-section{
+    width: 80%;
+}
+
+.profile-checks{   
     width: inherit;
-    vertical-align: middle;display:table-cell;text-align:center;
-   
+    text-align:center;  
+}
+
+.profile-checks .btn-secondary{
+    background-color: rgb(251,76,76);
+}
+
+.profile-links{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin-bottom: 0;
 }
 
 .profile-links:not(:first-child){

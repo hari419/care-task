@@ -82,3 +82,9 @@ input{
     text-decoration: underline;
 }
 
+.dropdown-toggle::after {
+    margin-left: 0;
+    border-right: 0;
+    border-left: 0;
+}
+

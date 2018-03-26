@@ -87,10 +87,7 @@
     padding-bottom: 15px;
 }
 
-.caregivers-content{
-    margin-top: 21px;
-    margin-bottom: 19px;  
-}
+
 
 .search-bar{
     margin-top: 15px;
@@ -115,18 +112,30 @@
 
 .caregivers{
     height: auto;
-    background-color: rgb(241, 241, 241);
-    
+    background-color: rgb(241, 241, 241);  
 }
 
 svg.svg-inline--fa.fa-search.fa-w-16{
     height: 20px !important;
 }
 
+.caregivers-content{
+    padding-left: 15px;
+    float: left;
+    width: 15%;
+    margin-top: 21px;
+    margin-bottom: 19px;  
+}
+
 .search-section{
+    padding-right: 15px;
+    float: left;
+    width: 85%;
     min-height: 40px;
     margin-top: 15px;
 }
+
+
 
 .caregivers-select-box{
     background-color:#fff;
@@ -185,13 +194,36 @@ svg.svg-inline--fa.fa-search.fa-w-16{
     }
 
     .search-button{
-        width: 7%;
+        width: 2%;
+    }
+
+    .caregivers-content{
+        float: left;
+        width: 30%;
+    }
+    
+    .search-section{
+        float: left;
+        width: 65%;
+        
     }
     
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* For ipad pro: */
+
+    .caregivers-content{
+        float: left;
+        width: 18%;
+    }
+    
+    .search-section{
+        float: left;
+        width: 82%;
+        
+    }
+
     .caregivers-select-box{
         background-color:#fff;
         width:40% !important;
