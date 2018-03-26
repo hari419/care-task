@@ -1,14 +1,15 @@
+footer{
+    background-color: #F9F9F9;
+}
 .footer-data{ 
     font-size: 16px;
-    margin-top: 41px;
-    font-family: Helvetica;
-    background-color: #F9F9F9;
-    text-align: justify;
+    text-align: justify;   
 }
 
 .footer-links{
     height: auto;
     text-align: justify;
+    margin-top: 41px;
 }
 
 .footer-links ul li a {

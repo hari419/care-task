@@ -1,8 +1,13 @@
 .logo{
-    padding-left: 0 !important;
+    height: 28px;margin-top: 15px;
 }
+
 .care-logo{
-   height: 28px;width: 104px;margin-left: 27px;margin-top: 20px;
+    width: inherit;background-size: cover;
+}
+
+.navSection{
+    min-height: 51px;
 }
 
 .tabbable-panel {
@@ -82,12 +87,13 @@
     padding-bottom: 15px;
 }
 
-.upgrade {
-    border-radius: 36px;
-    padding: 0px 10px;
-    margin-top: 10px;
-    background-color: rgb(251,76,76);
-    border: none;
+.caregivers-content{
+    margin-top: 21px;
+    margin-bottom: 19px;  
+}
+
+.search-bar{
+    margin-top: 15px;
 }
 
 .nav-tabs>li {
@@ -97,42 +103,113 @@
 }
 
 .logout{
-    height: 40px;
-    width: 50px;
+    height: 35px;
+    width: 40px;
     border-radius: 50%;
 }
 
 .logout-image{
     height: 30px;
-    width: 30px;
-}
-
-.search{
-    margin-top: 10px;
-}
-
-.post-job{
-    border-radius: 36px;
-    padding: 3px 18px;
-    margin-left: 10px;
-    background-color: black;
-}
-
-.post-job:hover{
-    background-color: black;
+    width: 25px;
 }
 
 .caregivers{
     height: auto;
-    background-color: gainsboro;
+    background-color: rgb(241, 241, 241);
+    
 }
 
 svg.svg-inline--fa.fa-search.fa-w-16{
     height: 20px !important;
 }
 
-.caregivers-content{
-    margin-bottom: 10px;
+.search-section{
+    min-height: 40px;
+    margin-top: 15px;
 }
+
+.caregivers-select-box{
+    background-color:#fff;
+    width:67%;
+}
+
+.distance-box{
+    background-color:#fff;
+    width:23% ;
+}
+
+.distance-select{
+    width: 28% !important;
+}
+
+.search-button{
+    width: 3%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /* .dropdown1{
+        padding-left: 0;
+    }
+    .dropdown2{
+        padding-right: 0;
+    } */
+    .invisibleTabs{
+        display: none !important;
+    }
+    .tabbable-panel{
+        vertical-align: middle;
+    }
+
+
+    .caregivers-select-box{
+        background-color:#fff;
+        width:20% !important;
+    }
+    
+    .distance-box{
+        background-color:#fff;
+        width:30% !important;
+        display: none;
+    }
+    
+    .distance-select{
+        width: 27% !important;
+    }
+
+    .search-button{
+        width: 7%;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    /* For ipad pro: */
+    .caregivers-select-box{
+        background-color:#fff;
+        width:40% !important;
+    }
+    
+    .distance-box{
+        background-color:#fff;
+        width:30% !important;
+        
+    }
+    
+    .distance-select{
+        width: 27% !important;
+    }
+    
+}
+
+
+
 
 

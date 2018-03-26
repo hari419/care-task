@@ -1,3 +1,11 @@
+.container-fluid{
+    padding: 0;  
+}
+
+body{
+    font-family: "Lato" !important;   
+}
+
 .header{
     height: 124px;
     width: 1202px;
@@ -5,9 +13,13 @@
 
 #footer{
     background-color: rgb(249,249,249) !important;
+    
 }
 
 .row{
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
+
+
+

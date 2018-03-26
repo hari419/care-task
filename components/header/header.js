@@ -1,7 +1,8 @@
+
 $(document).ready(function(e){
 
 	$.ajax({
-		url: "header/css/header.css",
+		url: "components/header/header.css",
 		success: function (data) {
 				$("<style></style>").appendTo("#footer").html(data);
 		}
